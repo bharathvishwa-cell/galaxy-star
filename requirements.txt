@@ -1,0 +1,16 @@
+# PDF processing
+PyMuPDF==1.23.6
+
+# Transformers + Hugging Face
+transformers==4.38.2
+sentence-transformers==2.2.2
+torch>=2.0
+
+# FAISS for semantic search
+faiss-cpu==1.7.4
+
+# Gradio for UI
+gradio==4.27.0
+
+# Optional (for better token handling with newer models)
+accelerate>=0.21.0
